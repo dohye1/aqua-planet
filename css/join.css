@@ -1,0 +1,312 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Lato:100,300,300i,700,700i&display=swap');
+
+@font-face {
+    font-family: 'KCC-eunyoung';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/KCC-eunyoung-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:300,400,500&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,500i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: #f1faff;
+}
+
+#total {
+    width: 1380px;
+    position: absolute;
+    left: 50%;
+    margin-left: -690px;
+    z-index: 999;
+    height: 1100px;
+}
+
+    #total .right {
+        margin: 0 auto;
+        width: 1380px;
+        height: 15px;
+        margin-top: 10px;
+    }
+
+        #total .right ul {
+            float: right;
+            width: 260px;
+            height: 15px;
+            text-align: center;
+        }
+
+        #total .right li {
+            float: left;
+            padding-left: 20px;
+        }
+
+            #total .right li:nth-child(1) a {
+                color: #fff;
+                font-family: 'Lato';
+                font-weight: 100;
+                font-size: 13px;
+                line-height: 15px;
+            }
+
+            #total .right li:nth-child(2) a {
+                color: #fff;
+                font-family: 'Lato';
+                font-weight: 100;
+                font-size: 13px;
+                line-height: 15px;
+            }
+
+            #total .right li a img[src$=png] {
+                padding-top: 2px;
+            }
+
+    #total .logo {
+        width: 1380px;
+        height: 76px;
+        margin: 0 auto;
+        text-align: center;
+        margin: 20px 0;
+    }
+
+        #total .logo img[src$=png] {
+            display: inline-block;
+        }
+
+    #total #nav {
+        width: 1380px;
+        height: 60px;
+        margin: 0 auto;
+        border-top: 1px solid #707070;
+        border-bottom: 1px solid #707070;
+        text-align: center;
+    }
+
+        #total #nav ul {
+            display: inline-block;
+        }
+
+        #total #nav li {
+            float: left;
+            margin: 0 100px;
+            line-height: 60px;
+        }
+
+            #total #nav li a {
+                color: #707070;
+                font-family: 'Lato';
+                font-size: 15px;
+                font-weight: 800;
+            }
+
+
+
+h1 {
+    font-weight: 500;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 5%;
+    color: #707070;
+    font-family: 'Roboto';
+}
+
+#step {
+    width: 1020px;
+    height: 60px;
+    margin: 0 auto;
+    margin-top:5%;
+    background-color:#f00;
+}
+
+    #step li {
+        float: left;
+        width: 300px;
+        height: 80px;
+        background-color:#b5b5b5;
+        padding: 0 20px;
+    }
+
+        #step li a {
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 80px;
+            color: #fff;
+        }
+
+            #step li a span {
+                float: right;
+                font-size: 40px;
+                font-weight: 200;
+            }
+
+#step1 {
+    width: 1000px;
+    height: 800px;
+    margin: 0 auto;
+}
+
+    #step1 h2 {
+        margin-top: 8%;
+        font-size: 24px;
+        color:#83abd1;
+        font-weight: 900;
+        text-align: center;
+    }
+
+    #step1 .txt {
+        font-size: 15px;
+        text-align: center;
+        font-weight: 500;
+    }
+
+    #step1 .check {
+        width: 1000px;
+        height: 300px;
+        margin: 0 auto;
+        margin: 5% 0;
+        border: 1px solid #f2f2f2;
+        box-shadow: 2px 2px 5px #f2f2f2;
+        background-color:#fefcfc;
+    }
+
+        #step1 .check ul {
+            width: 980px;
+            height: 70px;
+            line-height: 70px;
+            padding: 0 20px;
+            background-color: #f5f5f5;
+        }
+
+        #step1 .check li:nth-child(1) {
+            float: left;
+            font-weight: 600;
+            font-size: 15px;
+        }
+
+        #step1 .check li:nth-child(2) {
+            float: right;
+            font-size: 13px;
+        }
+
+        #step1 .check input {
+            margin: 0 10px;
+            width: 17px;
+            height: 17px;
+        }
+
+#step1 .check p {
+    padding: 10px;
+    width: 1000px;
+    height: 210px;
+    overflow: scroll;
+    overflow-x: hidden;
+    font-size: 13px;
+}
+
+
+.next {
+    width: 120px;
+    height: 50px;
+    display: block;
+    margin: 0 auto;
+    background-color: #83abd1;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 12px;
+}
+
+#step2 {
+    width: 900px;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 7%;
+    background-color: #f1faff;
+}
+
+    #step2 li {
+        width: 900px;
+        height: 70px;
+        line-height: 70px;
+    }
+
+        #step2 li label {
+            padding-left: 20px;
+            display: inline-block;
+            width: 300px;
+            font-size: 16px;
+            font-weight: 700;
+            color: #707070;
+        }
+
+
+        #step2 li input {
+            width: 400px;
+            height: 30px;
+            border: 1px solid #c6c6c6;
+            padding: 5px;
+        }
+
+.next1 {
+    width: 120px;
+    height: 50px;
+    background-color: #c6c6c6;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    color: #fff;
+    font-size: 12px;
+    float: left;
+}
+
+
+.next2 {
+    width: 120px;
+    height: 50px;
+    margin: 0 auto;
+    background-color: #83abd1;
+    
+    border: none;
+    border-radius: 0 5px 5px 0;
+    color: #fff;
+    font-size: 12px;
+    float: left;
+}
+
+#btn {
+    width: 240px;
+    height: 50px;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+
+footer {
+    width: 1380px;
+    height: 300px;
+    margin: 0 auto;
+    border-top: 1px solid #bed7e4;
+    margin-top: 100px;
+    text-align: center;
+    padding-top: 80px;
+}
+
+    footer p {
+        font-size: 12px;
+        font-weight: 200;
+        font-family: 'Noto Sans CJK KR';
+        color: #515a5f;
+    }

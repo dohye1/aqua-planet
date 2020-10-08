@@ -1,0 +1,297 @@
+﻿
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,300i,700,700i&display=swap');
+
+@font-face {
+    font-family: 'KCC-eunyoung';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/KCC-eunyoung-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:300,400,500&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,500i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    display: block;
+}
+
+body {
+    background-color: #f5f6f6;
+}
+
+#top {
+    width: 100%;
+    height: 205px;
+    margin: 0 auto;
+    background-color:#c6d8c0;
+}
+
+    #top .right {
+        margin: 0 auto;
+        width: 1380px;
+        height: 15px;
+        padding-top:8px;
+    }
+
+        #top .right ul {
+            float: right;
+            width: 260px;
+            height: 15px;
+            text-align: center;
+        }
+
+        #top .right li {
+            float: left;
+            padding-left: 20px;
+        }
+
+
+            #top .right li:nth-child(1) a {
+                color: #fff;
+                font-family: 'Lato';
+                font-weight: 100;
+                font-size: 13px;
+                line-height:15px;
+            }
+
+            #top .right li:nth-child(2) a {
+                color: #fff;
+                font-family: 'Lato';
+                font-weight: 100;
+                font-size: 13px;
+                line-height:15px;
+            }
+
+            #top .right li a img[src$=png] {
+            padding-top:4px;
+            }
+
+    #top .logo {
+        width: 1380px;
+        height: 76px;
+        text-align: center;
+        margin: 0 auto;
+        margin-top:20px;
+    }
+
+        #top .logo img[src$=png] {
+            display: inline-block;
+        }
+
+    #top #nav {
+        width: 100%;
+        height: 60px;
+        margin: 0 auto;
+        border-top: 1px solid rgba(255, 255, 255, 0.55);
+        text-align: center;
+        margin-top:22px;
+    }
+
+        #top #nav ul {
+            display: inline-block;
+        }
+
+        #top #nav li {
+            float: left;
+            margin: 0 100px;
+            line-height: 60px;
+        }
+
+            #top #nav li a {
+                color: rgba(255, 255, 255, 0.90);
+                font-family: 'Lato';
+                font-size: 15px;
+                font-weight: 800;
+            }
+
+#menu {
+    width: 400px;
+    height: 60px;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-bottom: 2px solid #5f5e5e;
+    text-align: center;
+}
+
+    #menu li:nth-child(1) {
+        width: 125px;
+        float: left;
+        padding: 10px 30px;
+        line-height: 60px;
+        text-align: center;
+    }
+
+
+    #menu li:nth-child(2){
+        width: 125px;
+        float: right;
+        padding: 10px 30px;
+        line-height: 60px;
+        text-align: center;
+
+    }
+
+        #menu li a {
+            font-size: 15px;
+            font-family: 'Noto Sans CJK KR';
+            color: #5f5e5e;
+            font-weight: 200;
+        }
+
+    #menu li:nth-child(1) a {
+        font-weight:300;
+        font-size:17px;
+    }
+
+#event {
+    width: 1200px;
+    height: 1600px;
+    margin: 0 auto;
+    margin-top: 100px;
+    overflow: hidden;
+    font-family: 'Noto Sans CJK KR';
+}
+
+    #event img[src$=jpg] {
+        padding: 50px 120px;
+        margin:0 auto;    }
+
+    #event .e1 {
+        width: 599px;
+        height: 799px;
+        float: left;
+        border-right: 1px solid #e4d6a7;
+        border-bottom: 1px solid #e4d6a7;
+        box-sizing: border-box;
+    }
+
+        #event .e1 .txt {
+            width: 600px;
+            height: 230px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+            #event .e1 .txt h3 {
+                font-size: 16px;
+                color: #009af9;
+                font-weight: 400;
+                line-height: 30px;
+            }
+
+    #event .e2 {
+        width: 600px;
+        height: 799px;
+        float: left;
+        border-bottom: 1px solid #e4d6a7;
+        box-sizing: border-box;
+        }
+
+        #event .e2 .txt {
+            width: 600px;
+            height: 230px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+            #event .e2 .txt h3 {
+                font-size: 16px;
+                color: #c26766;
+                font-weight: 400;
+                line-height: 30px;
+            }
+
+    #event .e3 {
+        width: 599px;
+        height: 800px;
+        float: left;
+        border-right: 1px solid #e4d6a7;
+        box-sizing: border-box;
+    }
+
+        #event .e3 .txt {
+            width: 600px;
+            height: 230px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+            #event .e3 .txt h3 {
+                font-size: 16px;
+                color: #a3c0a0;
+                font-weight: 400;
+                line-height: 30px;
+            }
+
+
+    #event .e4 {
+        width: 600px;
+        height: 800px;
+        float: left;
+    }
+
+        #event .e4 .txt {
+            width: 600px;
+            height: 230px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+            #event .e4 .txt h3 {
+                font-size: 16px;
+                color: #d7cf87;
+                font-weight: 400;
+                line-height: 30px;
+            }
+
+    #event .middle {
+        font-size: 15px;
+        font-weight: 100;
+        color: #222222;
+        margin: 30px 0;
+    }
+
+    #event .middle1 {
+        font-size: 15px;
+        font-weight: 100;
+        color: #222222;
+        margin: 20px 0;
+    }
+
+    #event .botm {
+        font-size: 13px;
+        color: #222222;
+        line-height: 30px;
+        font-weight: 200;
+    }
+
+    footer {
+    width: 1380px;
+    height: 300px;
+    margin: 0 auto;
+    border-top: 1px solid #e4d6a7;
+    margin-top: 100px;
+    text-align: center;
+    padding-top: 80px;
+}
+
+    footer p {
+        font-size: 12px;
+        font-weight: 200;
+        font-family: 'Noto Sans CJK KR';
+        color: #515a5f;
+    }

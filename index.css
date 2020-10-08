@@ -1,0 +1,473 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Lato:100,300,300i,700,700i&display=swap');
+
+@font-face {
+    font-family: 'KCC-eunyoung';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/KCC-eunyoung-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:300,400,500&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,500i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: #f1faff;
+}
+/*#f1faff;*/
+
+#bg1 {
+    width: 100%;
+    height: 1000px;
+    background-image: url(img/main2.png);
+    background-size: 100% 90%;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+#bg2 {
+    width: 100%;
+    height: 750px;
+    position: absolute;
+    top: 125%;
+    left: 0;
+    z-index: 2;
+    background-color: #8daec1;
+}
+
+#bg3 {
+    width: 100%;
+    height: 1400px;
+    position: absolute;
+    top: 320%;
+    left: 0;
+    z-index: 3;
+    background-color: #eeecec;
+}
+
+#total {
+    width: 1380px;
+    position: absolute;
+    left: 50%;
+    margin-left: -690px;
+    z-index: 999;
+}
+
+#top {
+    width: 1380px;
+    height: 1100px;
+    margin: 0 auto;
+}
+
+    #top .right {
+        margin: 0 auto;
+        width: 1380px;
+        height: 15px;
+        margin-top: 10px;
+    }
+
+        #top .right ul {
+            float: right;
+            width: 260px;
+            height: 15px;
+            text-align: center;
+        }
+
+        #top .right li {
+            float: left;
+            padding-left: 20px;
+        }
+
+            #top .right li:nth-child(1) a {
+                color: #fff;
+                font-family: 'Lato';
+                font-weight: 100;
+                font-size: 13px;
+                line-height: 15px;
+            }
+
+            #top .right li:nth-child(2) a {
+                color: #fff;
+                font-family: 'Lato';
+                font-weight: 100;
+                font-size: 13px;
+                line-height: 15px;
+            }
+
+            #top .right li a img[src$=png] {
+                padding-top: 2px;
+            }
+
+    #top .logo {
+        width: 1380px;
+        height: 76px;
+        margin: 0 auto;
+        text-align: center;
+        margin: 20px 0;
+    }
+
+        #top .logo img[src$=png] {
+            display: inline-block;
+        }
+
+    #top #nav {
+        width: 1380px;
+        height: 60px;
+        margin: 0 auto;
+        border-top: 1px solid rgba(255, 255, 255, 0.55);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.55);
+        text-align: center;
+    }
+
+        #top #nav ul {
+            display: inline-block;
+        }
+
+        #top #nav li {
+            float: left;
+            margin: 0 100px;
+            line-height: 60px;
+        }
+
+            #top #nav li a {
+                color: rgba(255, 255, 255, 0.90);
+                font-family: 'Lato';
+                font-size: 15px;
+                font-weight: 800;
+            }
+
+    #top #center {
+        width: 700px;
+        height: 200px;
+        margin: 0 auto;
+        margin-top: 100px;
+        color: #fff;
+        text-align: center;
+    }
+
+        #top #center h1 {
+            font-family: Lato;
+            font-weight: 100;
+            font-size: 60px;
+        }
+
+        #top #center span {
+            display: block;
+            width: 50px;
+            height: 1px;
+            background-color: #fff;
+            margin: 0 auto;
+            margin-top: 20px;
+        }
+
+        #top #center p {
+            font-size: 35px;
+            text-align: center;
+            font-weight: 200;
+            font-family: 'KCC-eunyoung';
+        }
+
+
+.aqua {
+    width: 1380px;
+    height: 465px;
+    margin: 0 auto;
+    background-color:#fff;  
+}
+
+    .aqua .flower1 {
+        width: 690px;
+        height: 465px;
+        float: left;
+        background-image: url(img/green.png);
+        background-size: 102% 100%;
+        background-repeat: no-repeat;
+    }
+
+    .aqua #green {
+        width: 470px;
+        height: 220px;
+        float: left;
+        margin-left: 50px;
+        color: #2a6b41;
+        margin-top: 120px;
+        text-align: left;
+    }
+
+        .aqua #green h1 {
+            font-family: Lato;
+            font-size: 60px;
+            font-weight: 500;
+        }
+
+        .aqua #green p {
+            font-family: 'Noto Sans CJK KR';
+            margin-top: 40px;
+            font-size: 15px;
+            color: #2a6b41;
+        }
+
+.aqua .plusbtn {
+    float: right;
+    margin-top: 348px;
+    margin-right: 50px;
+}
+
+.aqua2 {
+    width: 1380px;
+    height: 465px;
+    margin: 0 auto;
+    background-color:#fff;  
+}
+
+.aqua2 .plusbtn {
+    float: left;
+    margin-top: 348px;
+    margin-left: 50px;
+}
+        .aqua2 #yellow {
+            width: 490px;
+            height: 220px;
+            float: left;
+            margin-left: 63px;
+            color: #f7e486;
+            margin-top: 120px;
+            text-align: right;
+        }
+                .aqua2 #yellow h1 {
+            font-family: Lato;
+            font-size: 60px;
+            font-weight: 500;
+        }
+
+        .aqua2 #yellow p {
+            font-family: 'Noto Sans CJK KR';
+            margin-top: 40px;
+            font-size: 15px;
+            color: #f7e486;
+        }
+
+    .aqua2 .flower2 {
+        width: 690px;
+        height: 465px;
+        float: right;
+        background-image: url(img/yellow.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+
+#store {
+    text-align: center;
+    margin-top: 200px;
+    color: #333;
+    font-size: 46px;
+    font-weight: 200;
+    font-family: 'Raleway';
+}
+
+#menu {
+    width: 530px;
+    height: 65px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+    #menu li {
+        float: left;
+        width: 110px;
+        line-height: 65px;
+        font-weight: 300;
+        margin: 0 30px;
+        text-align: center;
+    }
+
+        #menu li a {
+            width: 150px;
+            margin: 0 auto;
+            color: #5c6164;
+            font-family: 'Raleway';
+            font-size: 18px;
+            font-weight: 400;
+            display: block;
+        }
+
+ul {
+    list-style: none outside none;
+    padding-left: 0;
+    margin: 0;
+}
+
+/*store*/
+
+.demo {
+    width: 1400px;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-top: 100px;
+}
+
+    .demo .item {
+        width: 1250px;
+        margin: 0 auto;
+        margin-bottom: 60px;
+        height: 400px;
+    }
+
+.content-slider li {
+    width: 200px;
+    height: 280px;
+    text-align: center;
+    color: #FFF;
+}
+
+    .content-slider li img {
+        margin-top: 50px;
+    }
+
+
+.content-slider {
+    height: 300px;
+}
+
+#eventtxt {
+    width: 180px;
+    height: 200px;
+    margin: 0 auto;
+    margin-top: 200px;
+    text-align: center;
+    font-family: Lato;
+}
+
+    #eventtxt p {
+        font-size: 16px;
+        font-weight: 500;
+        color: #a3a3a3;
+        letter-spacing: 5px;
+    }
+
+    #eventtxt h2 {
+        font-size: 37px;
+        font-weight: 800;
+        color: #acc9d9;
+        padding: 5px 0;
+        border-bottom: 1px solid #acc9d9;
+        margin-bottom: 5px;
+    }
+
+#event {
+    width: 1371px;
+    height: 653px;
+    margin: 0 auto;
+}
+
+
+    #event li {
+        width: 457px;
+        height: 660px;
+        float: left;
+    }
+
+#insta {
+    width: 1380px;
+    height: 460px;
+    margin: 0 auto;
+    margin-top: 250px;
+    font-family: 'Roboto';
+    color: #eeecec;
+    background-color: #97b1bf;
+    padding: 30px 70px;
+}
+
+    #insta .logo {
+        float: left;
+    }
+
+    #insta h2 {
+        font-size: 35px;
+        font-weight: 300;
+        font-family: Roboto;
+        color: #eeecec;
+        float: left;
+    }
+
+    #insta .hash {
+        width: 1250px;
+        height: 60px;
+        margin: 0 auto;
+    }
+
+        #insta .hash p {
+            float: right;
+            padding: 0 20px;
+            font-size: 20px;
+            cursor: pointer;
+            line-height: 60px;
+        }
+
+#instaP {
+    width: 1280px;
+    height: 300px;
+    margin: 0 auto;
+    padding-top: 15px;
+}
+
+    #instaP .instabox {
+        width: 280px;
+        height: 280px;
+        float: left;
+        margin-right: 35px;
+        position: relative;
+    }
+
+
+        #instaP .instabox:nth-child(4) {
+            margin-right: 0px;
+        }
+
+.instabox .bkbox {
+    width: 280px;
+    height: 280px;
+    background-color: rgba(124, 123, 123, 0.60);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+    .instabox .bkbox img[src$=png] {
+        padding-top: 122px;
+        cursor: pointer;
+    }
+
+footer {
+    width: 1380px;
+    height: 300px;
+    margin: 0 auto;
+    border-top: 1px solid #bed7e4;
+    margin-top: 100px;
+    text-align: center;
+    padding-top: 80px;
+}
+
+    footer p {
+        font-size: 12px;
+        font-weight: 200;
+        font-family: 'Noto Sans CJK KR';
+        color: #515a5f;
+    }

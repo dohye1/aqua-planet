@@ -1,0 +1,404 @@
+﻿
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,300i,700,700i&display=swap');
+
+@font-face {
+    font-family: 'KCC-eunyoung';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/KCC-eunyoung-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:300,400,500&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,500i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    background-color: #f5f6f6;
+}
+
+#top {
+    width: 100%;
+    height: 205px;
+    margin: 0 auto;
+    background-color: #bfcdd0;
+}
+
+    #top .right {
+        margin: 0 auto;
+        width: 1380px;
+        height: 15px;
+        padding-top: 8px;
+    }
+
+        #top .right ul {
+            float: right;
+            width: 260px;
+            height: 15px;
+            text-align: center;
+        }
+
+        #top .right li {
+            float: left;
+            padding-left: 20px;
+        }
+
+
+            #top .right li:nth-child(1) a {
+                color: #fff;
+                font-family: 'Lato';
+                font-weight: 100;
+                font-size: 13px;
+                line-height: 15px;
+            }
+
+            #top .right li:nth-child(2) a {
+                color: #fff;
+                font-family: 'Lato';
+                font-weight: 100;
+                font-size: 13px;
+                line-height: 15px;
+            }
+
+            #top .right li a img[src$=png] {
+                padding-top: 4px;
+            }
+
+    #top .logo {
+        width: 1380px;
+        height: 76px;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
+        #top .logo img[src$=png] {
+            display: inline-block;
+        }
+
+    #top #nav {
+        width: 100%;
+        height: 60px;
+        margin: 0 auto;
+        border-top: 1px solid rgba(255, 255, 255, 0.55);
+        text-align: center;
+        margin-top: 22px;
+    }
+
+        #top #nav ul {
+            display: inline-block;
+        }
+
+        #top #nav li {
+            float: left;
+            margin: 0 100px;
+            line-height: 60px;
+            text-align: center;
+        }
+
+            #top #nav li a {
+                color: rgba(255, 255, 255, 0.90);
+                font-family: 'Lato';
+                font-size: 15px;
+                font-weight: 800;
+            }
+
+#menu {
+    width: 1000px;
+    height: 120px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+    #menu li {
+        width: 140px;
+        font-size: 15px;
+        font-family: 'Noto Sans CJK KR';
+        color: #5f5e5e;
+        float: left;
+        padding: 40px 0px;
+    }
+
+        #menu li a {
+            font-size: 16px;
+            font-family: 'Noto Sans CJK KR';
+            color: #5f5e5e;
+            font-weight: 300;
+        }
+
+#i1 {
+    width: 1200px;
+    height: 670px;
+    margin: 0 auto;
+    position:absolute;
+    top:350px;
+    left:50%;
+    margin-left:-600px;
+}
+
+#i1 .left{
+    width:600px;
+    height:670px;
+    position:absolute;
+    top:0;
+    left:0;
+}
+
+#i1 .right{
+    width:600px;
+    height:670px;
+    float:right;
+    position:absolute;
+    top:0;
+    right:0;
+}
+    #i1 .left .txt {
+        position:absolute;
+        width:600px;
+        height:670px;
+        width:100%;
+        height:100%;
+    }
+
+    #i1 .right .txt {
+        position:absolute;
+        width:600px;
+        height:670px;
+        width:100%;
+        height:100%;
+    }
+
+    #i1 .right img[src$=png] {
+        position:absolute;
+    }
+
+#i2 {
+    width: 1300px;
+    height: 700px;
+    position: relative;
+    top: 20%;
+    left: 50%;
+    margin-left: -650px;
+    z-index: 55;
+}
+
+.floor a {
+    color: #fff;
+}
+
+.floor p {
+    color: #fff;
+}
+
+.bg {
+    position: absolute;
+    top: 310px;
+    left: 0;
+    height: 800px;
+    width: 100%;
+    z-index: 1;
+}
+
+
+#i2 .floor {
+    font-family: Lato;
+    width: 30px;
+    height: 60px;
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    margin-top: -30px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 200;
+    z-index: 5;
+}
+
+#map1 {
+    width: 1000px;
+    height: 500px;
+    position: absolute;
+    top: 50%;
+    margin-top: -250px;
+    left: 50%;
+    margin-left: -400px;
+}
+
+#map2 {
+    width: 1000px;
+    height: 500px;
+    position: absolute;
+    top: 50%;
+    margin-top: -250px;
+    left: 50%;
+    margin-left: -400px;
+}
+
+#map1 .f1 {
+    width: 220px;
+    height: 120px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+#map1 .f2 {
+    width: 200px;
+    height: 180px;
+    position: absolute;
+    bottom: 110px;
+    left: 230px;
+}
+
+#map1 .f3 {
+    width: 150px;
+    height: 110px;
+    position: absolute;
+    top: 135px;
+    right: 385px;
+}
+
+#map2 .f1 {
+    width: 220px;
+    height: 120px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+#map2 .f2 {
+    width: 200px;
+    height: 180px;
+    position: absolute;
+    bottom: 110px;
+    left: 230px;
+}
+
+#map2 .f3 {
+    width: 150px;
+    height: 110px;
+    position: absolute;
+    top: 135px;
+    right: 385px;
+}
+
+#i2 img[src $=png] {
+    display: block;
+    float: left;
+}
+
+
+.txt {
+    width: 300px;
+    height: 500px;
+    float: right;
+    font-family: 'Roboto';
+    text-align: center;
+}
+
+    .txt .txt1 {
+        width: 300px;
+        height: 120px;
+        border: 1px solid #d9d6d6;
+        padding-top: 30px;
+    }
+
+#map1 .txt1 h2 {
+    color: #c18e5d;
+    line-height: 40px;
+    font-size: 20px;
+}
+
+#map2 .txt1 h2 {
+    color: #98b1bf;
+    line-height: 40px;
+    font-size: 20px;
+}
+
+.txt .txt1 p {
+    font-size: 15px;
+    line-height: 25px;
+    color: #fff;
+}
+
+.txt .txt2 {
+    width: 300px;
+    height: 120px;
+    border-left: 1px solid #d9d6d6;
+    border-right: 1px solid #d9d6d6;
+    padding-top: 30px;
+}
+
+#map1 .txt2 h2 {
+    color: #9abd8f;
+    line-height: 40px;
+    font-size: 20px;
+}
+
+
+#map2 .txt2 h2 {
+    color: #f1d882;
+    line-height: 40px;
+    font-size: 20px;
+}
+
+.txt .txt2 p {
+    font-size: 15px;
+    line-height: 25px;
+    color: #fff;
+}
+
+.txt .txt3 {
+    width: 300px;
+    height: 120px;
+    border: 1px solid #d9d6d6;
+    padding-top: 30px;
+}
+
+#map1 .txt3 h2 {
+    color: #dce66b;
+    line-height: 40px;
+    font-size: 20px;
+}
+
+#map2 .txt3 h2 {
+    color: #a5c6b8;
+    line-height: 40px;
+    font-size: 20px;
+}
+
+.txt .txt3 p {
+    font-size: 15px;
+    line-height: 25px;
+    color: #fff;
+}
+
+
+footer {
+    width: 1380px;
+    height: 200px;
+    margin: 0 auto;
+    border-top: 1px solid #bed7e4;
+    margin-top: 800px;
+    text-align: center;
+    padding-top: 80px;
+}
+
+    footer p {
+        font-size: 12px;
+        font-weight: 200;
+        font-family: 'Noto Sans CJK KR';
+        color: #abc3c3;
+    }
